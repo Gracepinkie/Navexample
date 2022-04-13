@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation example</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.jpg" alt="company logo">
+        <nav>
+            <ul>
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div>
+                <h2>Home</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto dolores delectus tempora accusamus dolorum! Esse repellendus ipsam numquam reprehenderit consequatur, dignissimos debitis, quisquam officiis distinctio iure labore nihil? Repellat distinctio in repudiandae labore tempora maiores ab illum! Sint natus voluptatem ipsam, ad, qui et non nemo quod eius incidunt excepturi!</p>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <h2>About</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto dolores delectus tempora accusamus dolorum! Esse repellendus ipsam numquam reprehenderit consequatur, dignissimos debitis, quisquam officiis distinctio iure labore nihil? Repellat distinctio in repudiandae labore tempora maiores ab illum! Sint natus voluptatem ipsam, ad, qui et non nemo quod eius incidunt excepturi!</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2> 
+            
+            <div>
+                <fieldset>
+                    <form action="https://formspree.io/f/xoqrkwnv" method="post">
+                        <div>
+                            <label for="name">Name: &nbsp; &nbsp; &nbsp; </label>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div><br>
+                        <div>
+                            <label for="surname">Surname: &nbsp;</label>
+                            <input type="text" name="surname" placeholder="Enter your surname" required>
+                        </div><br>
+                        <div>
+                            <label for="age">Age: &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                            <input type="number" name="age" placeholder="Enter your age" required>
+                        </div><br>
+                        <div>
+                            <label>Gender:</label>
+                            <span> &nbsp; &nbsp; &nbsp;Male</span>
+                            <input type="radio" name="gender">
+                            <span> &nbsp; &nbsp; &nbsp;Female</span>
+                            <input type="radio" name="gender">
+                            <span> &nbsp; &nbsp; &nbsp;Transgender</span>
+                            <input type="radio" name="gender">
+                            <span> &nbsp; &nbsp; &nbsp;non-binary</span>
+                            <input type="radio" name="gender">
+                        </div><br>
+                        <div>
+                            <label>Language:</label>
+                            <span>Java</span>
+                            <input type="checkbox">
+                            <span>Python</span>
+                            <input type="checkbox">
+                            <span>C++</span>
+                            <input type="checkbox">
+                        </div>
+                        <div>
+                            <label>Country</label>
+                            <select name="country">
+                                <option value="southafrica">
+                                    South Africa
+                                </option>
+                                <option value="southkorea">
+                                    South Korea
+                                </option>
+                                <option value="USA">
+                                    USA
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="20" rows="5">
+                                Enter your message here
+                            </textarea>
+                        </div>
+                        <input type="Submit">                      
+                    </form>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>copyright &copy;2022</p>
+        </div>
+    </footer>
+</body>
+</html>

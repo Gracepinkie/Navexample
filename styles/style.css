@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:palevioletred;
+    height: fit-content;
+}
+
+main{
+    min-height: 100vh;
+}
+
+img{
+    width: 100px;
+    min-height: 100%;
+}
+li{
+    padding-right: 10px;
+    display: inline-block;
+}
+
+p{
+    color: black;
+}
+
+nav{
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+#contact{
+    margin-top: 10px;
+    padding: 25px;
+    border-style: groove;
+    width: 600px;
+    height: 400px;
+    background-color: peachpuff;
+}
+
+.fieldset{
+    color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 50%;
+}
